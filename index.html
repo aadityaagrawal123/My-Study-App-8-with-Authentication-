@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel = "stylesheet"
+              type = "text/css"
+              href = "global.css" />
+    </head>
+    <body>
+     <div class="form-container"> 
+         <div class="user-img" > </div>
+         <ul class="list"> 
+             <li><h2>Student Login</h2></li>
+             <li> <input id="name" type="text" name="User Name" placeholder="User Name"></li>
+             <li><input id="password" type="password" name="Password" placeholder="Password"></li>
+             <li><input type="button" name="Submit" value="Submit" onclick="compareNames()"></li>
+             <li><h2>or</h2></li>
+             <a href="https://inf.ooo/g/4S6vuI0ut8h">Register Now!</a>
+         </ul>
+
+ </div>
+ <script type="text/javascript">
+    function compareNames(){
+    var name = document.getElementById("name");
+    var b=document.getElementById("password");
+    var c=name.value;
+    var d=password.value;
+    if (c === "aaditya" && d === "123456"){
+        location.href = "selectSubject.html";
+    }
+    else {
+        alert("User ID or Password did not match, Please enter correct details!");
+    }
+    }
+    </script>
+ </body>
+ </html>

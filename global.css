@@ -1,0 +1,65 @@
+*{margin:0; padding:0}
+body{
+    background-color: #f5683d;
+    padding-top: 25vh;
+}
+
+.form-container{
+    width: 250px;
+    height: auto;
+    padding: 30px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+    position: relative;
+}
+
+.user-img{
+    background: url('student-con.jpg') no-repeat;
+    width: 50px;
+    height: 60px;
+    background-size: 100%;
+    position: absolute;
+    top: 2px;
+    left: 20px;
+}
+
+ul.list{
+   list-style-type: none;
+   text-align: center;
+}
+
+ul.list li{
+ width: 250px;
+ margin-bottom: 15px;
+}
+
+ul.list li input{
+    width: 240px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+ul.list li input[type="button"]{
+    background-color: #4690fb;
+    color: #fff;
+}
+
+ul.list li:nth-child(5){
+    color: red;
+
+}
+
+ a:link{
+     text-decoration: none;
+     background-color: lightgreen;
+ }
+
+ a:hover{
+     color: olive;
+     text-decoration: underline;
+ }

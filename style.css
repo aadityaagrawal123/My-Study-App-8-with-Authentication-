@@ -1,0 +1,102 @@
+h1 {
+    color: white;
+    padding-left: 1% ;
+    padding-right: 1%;
+}
+ .select{
+     text-align: center;
+     color: #5040e2;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: large;
+ }
+  .standard{
+    text-align: center;
+    color: #1bc8f3;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.footer{
+    margin-left: 93%;
+    margin-top: 10%;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.header *{
+    border: solid;
+    background-color: plum;
+}
+.menu {
+    margin-right: 10%;
+    padding-top: 1%;
+}
+.menu a{
+    margin-left: -1%;
+}
+
+.item {
+    position: relative;
+    background-color: rgb(43, 231, 252);
+}
+
+.item p{
+    position: absolute;
+    top: 94% ;
+    left: 40%;
+    opacity: 0;
+    color: #6700b0
+}
+.item:hover p{
+    opacity: 0.9;
+} 
+.boxes {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   border-radius: 20px;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+}
+.customInput {
+    width:200px;
+    height:30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:transparent;
+    font-size: 20px;
+    outline:none;
+    color:white;
+    font-family: vollkorn;
+    text-align: center;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.5; /* Firefox */
+  }
